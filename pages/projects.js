@@ -2,19 +2,19 @@ import Header from "./../components/header";
 import Link from "next/link";
 import Date from "./../components/date";
 import utilStyles from "../styles/utils.module.scss";
-import { getSortedPostsData } from "../lib/posts";
+import { getSortedProjectsData } from "../lib/projects";
 import Head from "next/head";
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData();
+  const allProjectsData = getSortedProjectsData();
   return {
     props: {
-      allPostsData,
+      allProjectsData,
     },
   };
 }
 
-export default function Project({ allPostsData }) {
+export default function Project({ allProjectsData }) {
   return (
     <>
       <Head>
@@ -25,15 +25,17 @@ export default function Project({ allPostsData }) {
         className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.topMargin2}`}
       >
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
+          {allProjectsData.map(({ id, date, title, intro }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
+              <Link href={`/projects/${id}`}>
                 <a>{title}</a>
               </Link>
-              <br />
+              {" - "}
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
               </small>
+              <br />
+              <small className={utilStyles.lightText}>{intro}</small>
             </li>
           ))}
         </ul>

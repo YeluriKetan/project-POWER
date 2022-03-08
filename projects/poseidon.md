@@ -1,6 +1,7 @@
 ---
 title: "Project POSEIDON"
 date: "2021-09"
+intro: "Built a GUI desktop application for task tracking using Java"
 ---
 
 ![Project Poseidon](https://raw.githubusercontent.com/YeluriKetan/ip/master/src/main/resources/images/Logo.png)

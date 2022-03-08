@@ -1,6 +1,7 @@
 ---
 title: "Project WAR"
 date: "2022-02"
+intro: "We built a WORDLE solver in C++"
 ---
 
 # Project WAR
@@ -20,7 +21,7 @@ We created a solver from scratch that uses a simple algorithm built upon the bas
 - Average time taken to solve: < 200 microseconds
 - No. of words failed (i.e. take more than 6 predictions): 13
 
-![Distribution](https://raw.githubusercontent.com/YeluriKetan/project-WAR/master/lib/Distribution.png)
+![Distribution](/images/war-distribution.png)
 
 ## Tech
 

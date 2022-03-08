@@ -1,6 +1,7 @@
 ---
 title: "Project MANIAC"
 date: "2021-12"
+intro: "Attempting the prestigious Advent of Code"
 ---
 
 # Project MANIAC

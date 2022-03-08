@@ -1,6 +1,7 @@
 ---
 title: "Project TREADS"
 date: "2021-03"
+intro: "Trying to solve algorithmic coding problems"
 ---
 
 # Project TREADS
