@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 4rem 2rem;
+  padding: 2rem;
 }
 
 .image {
@@ -31,6 +31,7 @@
     color: white;
     text-align: center;
     font-family: monospace;
+    width: 300px;
   }
   &:hover {
     opacity: 1;

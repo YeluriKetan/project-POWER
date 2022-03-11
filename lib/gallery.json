@@ -1,9 +1,15 @@
 {
     "images": [
-        {"title": "Red Sunset", "date": "2021-09-30", "fileName": "a.jpg"},
-        {"title": "Coming soon", "date": "2021-08-31", "fileName": "b.jpg"},
-        {"title": "Singapore seaport", "date": "2021-07-15", "fileName": "c.jpg"},
-        {"title": "Orange Sunset", "date": "2021-08-31", "fileName": "d.jpg"},
-        {"title": "Indian ocean", "date": "2021-10-31", "fileName": "e.jpg"}
-    ]
-}
+        {"title": "Starlight", "date": "2018-06-06", "fileName": "starlight.jpg"},
+        {"title": "Water Trophy", "date": "2018-09-13", "fileName": "water-trophy.jpg"},
+        {"title": "Pac-man?", "date": "2020-03-21", "fileName": "pacman.jpg"},
+        {"title": "Rings of K10", "date": "2020-03-21", "fileName": "rings-of-k10.jpg"},
+        {"title": "Journey to the Centre of the Lens", "date": "2020-04-07", "fileName": "journey-lens.jpg"},
+        {"title": "Beware of the Flare", "date": "2020-04-07", "fileName": "beware-flare.jpg"},
+        {"title": "The power of the eye, in the palm of my hand", "date": "2020-04-09", "fileName": "power-eyes-hand.jpg"},
+        {"title": "Flow like a card, cut like a diamond", "date": "2020-05-07", "fileName": "card-diamond.jpg"},
+        {"title": "Twilight: Fall of the Dusk", "date": "2021-02-17", "fileName": "twilight-fall-dusk.jpg"},
+        {"title": "Vogue Lens", "date": "2021-10-21", "fileName": "vogue-lens.jpg"},
+        {"title": "Bed Notice", "date": "2021-10-26", "fileName": "bed-notice.jpg"},
+        {"title": "Fire in the Sky", "date": "2022-01-26", "fileName": "fire-sky.jpg"}]
+    }

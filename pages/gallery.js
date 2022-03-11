@@ -29,7 +29,7 @@ export default function Gallery({ allImagesLinks }) {
               width={400}
               height={300}
               objectFit="scale-down"
-              alt="Yeluri Ketan"
+              alt={title}
             />
             <div className={galleryStyles.overlay}>
               <p>{title}</p>
