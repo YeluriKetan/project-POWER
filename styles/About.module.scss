@@ -2,18 +2,39 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
   padding: 4rem;
-}
 
-.section {
-  width: 60%;
-  margin: 0.5rem 0;
-
-  h3 {
-    margin: 0.6rem 0;
+  h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align: center;
+    margin: 2rem 0 1rem 0;
   }
-  p {
-    margin: 0.5rem;
+
+  h4 {
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+  }
+
+  div {
+    width: 60%;
+    margin: 0.5rem 0;
+    h3 {
+      margin: 0.6rem 0;
+    }
+    p {
+      margin: 0.5rem;
+    }
+  }
+
+  img {
+    border-radius: 9999px;
+    width: 250px;
+    height: 250px;
+    margin: auto;
   }
 }
 
@@ -33,4 +54,10 @@
 
 .subtitle {
   margin: 0 !important;
+}
+
+.bottomImage {
+  margin: 2rem 0;
+  width: fit-content;
+  height: fit-content;
 }

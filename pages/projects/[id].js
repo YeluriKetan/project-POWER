@@ -30,7 +30,7 @@ export default function Project({ projectData }) {
       <article className={utilStyles.resizeImages}>
         <h1 className={utilStyles.headingxl}>{projectData.title}</h1>
         <div className={utilStyles.lightText}>
-          <Date dateString={projectData.date} />
+          <Date dateString={projectData.date} formatString="LLL yyyy" />
         </div>
         <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
       </article>

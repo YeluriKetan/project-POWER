@@ -2,6 +2,7 @@ import Header from "./../components/header";
 import Link from "next/link";
 import Date from "./../components/date";
 import utilStyles from "../styles/utils.module.scss";
+import projectsStyles from "../styles/Projects.module.scss";
 import { getSortedProjectsData } from "../lib/projects";
 import Head from "next/head";
 
@@ -21,21 +22,22 @@ export default function Project({ allProjectsData }) {
         <title>Projects</title>
       </Head>
       <Header projects></Header>
-      <main
-        className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.topMargin2}`}
-      >
-        <ul className={utilStyles.list}>
+      <main className={projectsStyles.main}>
+        <ul className={projectsStyles.list}>
           {allProjectsData.map(({ id, date, title, intro }) => (
-            <li className={utilStyles.listItem} key={id}>
+            <li className={projectsStyles.listItem} key={id}>
               <Link href={`/projects/${id}`}>
-                <a>{title}</a>
+                <a className={projectsStyles.link}>
+                  <div className={projectsStyles.div}>
+                    <h3 className={projectsStyles.projectsTitle}>{title}</h3>
+                    <small className={utilStyles.lightText}>
+                      <Date dateString={date} formatString="LLL yyyy" />
+                    </small>
+                    <br />
+                    <small className={utilStyles.lightText}>{intro}</small>
+                  </div>
+                </a>
               </Link>
-              {" - "}
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-              <br />
-              <small className={utilStyles.lightText}>{intro}</small>
             </li>
           ))}
         </ul>

@@ -1,0 +1,9 @@
+{
+    "images": [
+        {"title": "Red Sunset", "date": "2021-09-30", "fileName": "a.jpg"},
+        {"title": "Coming soon", "date": "2021-08-31", "fileName": "b.jpg"},
+        {"title": "Singapore seaport", "date": "2021-07-15", "fileName": "c.jpg"},
+        {"title": "Orange Sunset", "date": "2021-08-31", "fileName": "d.jpg"},
+        {"title": "Indian ocean", "date": "2021-10-31", "fileName": "e.jpg"}
+    ]
+}
