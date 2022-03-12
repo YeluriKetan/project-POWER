@@ -4,8 +4,6 @@ date: "2021-09"
 intro: "Built a GUI desktop application for task tracking using Java"
 ---
 
-![Project Poseidon](https://raw.githubusercontent.com/YeluriKetan/ip/master/src/main/resources/images/Logo.png)
-
 ## _Project POSEIDON_
 
 Repository for the Individual Project of CS2103T - Software Engineering taken in AY2021-2022 Semester 1.

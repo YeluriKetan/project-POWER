@@ -8,7 +8,7 @@ Repository for personal website.
 
 ## Stats
 
-- Time taken to build: 10 hours
+- Time taken to build: 11 hours
 
 ## Tech
 
