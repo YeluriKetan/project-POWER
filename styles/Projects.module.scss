@@ -1,4 +1,4 @@
-$offwhite: darken(white, 30%);
+@use "colors";
 
 .main {
   margin: 1rem 0;
@@ -24,7 +24,6 @@ $offwhite: darken(white, 30%);
 
 .div {
   font-size: 1.2rem;
-  color: black;
   width: 36rem;
   height: fit-content;
   padding: 1rem 0;
@@ -54,7 +53,7 @@ $offwhite: darken(white, 30%);
     left: 0;
     width: 100%;
     height: 100%;
-    border: 3px solid black;
+    border: 3px solid colors.$text;
     transition: opacity 0.3s, border 0.3s;
   }
 
@@ -70,9 +69,9 @@ $offwhite: darken(white, 30%);
     width: 100%;
     height: 100%;
     background-color: transparent;
-    border: 3px solid $offwhite;
+    border: 3px solid colors.$link;
     opacity: 0;
-    z-index: -1;
+    z-index: 1;
     transform: scaleX(1.1) scaleY(1.3);
     transition: transform 0.3s, opacity 0.3s;
   }

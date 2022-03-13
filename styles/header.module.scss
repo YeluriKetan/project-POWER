@@ -1,0 +1,87 @@
+@use "colors";
+
+.headerBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: monospace;
+  margin: 0;
+  padding: 0 1rem;
+  width: 100vw;
+}
+
+@keyframes typewriter {
+  39% {
+    left: 100%;
+  }
+
+  50% {
+    left: 100%;
+  }
+
+  89% {
+    left: 0;
+  }
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+$caret-speed: 12s;
+$typewriter-chars: 13;
+$typewriter-delay: 1s;
+
+.name {
+  font-family: monospace;
+  position: relative;
+  width: max-content;
+
+  &::after,
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  &::before {
+    background: colors.$background;
+    animation: typewriter $caret-speed steps($typewriter-chars)
+      $typewriter-delay infinite;
+  }
+
+  &::after {
+    width: 0.125em;
+    background: colors.$text;
+    animation: typewriter $caret-speed steps($typewriter-chars)
+        $typewriter-delay infinite,
+      blink 1s steps(2, start) infinite;
+  }
+}
+
+.navBar {
+  margin: auto 0 auto 0;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    list-style: none;
+
+    li {
+      margin: 0 2rem 0 2rem;
+    }
+  }
+}
+
+.currentLink {
+  a {
+    text-decoration: underline;
+  }
+}

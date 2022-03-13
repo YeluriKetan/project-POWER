@@ -1,3 +1,5 @@
+@use "colors";
+
 html,
 body {
   padding: 0;
@@ -11,11 +13,32 @@ body {
 
 * {
   box-sizing: border-box;
+  background-color: colors.$background;
+  color: colors.$text;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: colors.$heading;
+  }
+
+  p,
+  time {
+    background-color: transparent;
+  }
 }
 
 a {
-  color: #0070f3;
+  color: colors.$link;
   text-decoration: none;
+}
+
+header {
+  a {
+    color: colors.$heading !important;
+  }
 }
 
 a:hover {
@@ -23,6 +46,5 @@ a:hover {
 }
 
 img {
-  max-width: 100%;
   display: block;
 }

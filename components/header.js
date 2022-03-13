@@ -1,10 +1,10 @@
-import headerStyles from "./header.module.scss";
+import headerStyles from "../styles/header.module.scss";
 import Link from "next/link";
 
 export default function Header({ home, projects, gallery, about }) {
   return (
     <header className={headerStyles.headerBar}>
-      <h1>YELURI KETAN</h1>
+      <h1 className={headerStyles.name}>YELURI KETAN.</h1>
       <nav className={headerStyles.navBar}>
         <ul>
           <li className={home ? headerStyles.currentLink : ""}>
