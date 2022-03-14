@@ -30,25 +30,25 @@ intro: "How and Why I built this website..."
 
 > I also want to add a "Blog" section to the website; somewhere I can write about stuff in general, you know, the non-technical kind. Maybe I saw a movie and I liked it too much or maybe I hated it to hell and back. Somewhere I can praise and/or rant about something, or just be myself. But there's still a long way ahead for that. Most importantly, I need to learn how to be comfortable and satisfied with the content I put out on the open internet.
 
-## Stats
+## Stats, cause why not?
 
 - Project started on March 6th, 2022
 - Time taken to build: 12 hours
 - Tears of happiness shed: 4
 
-## Tech
+## Built using
 
 - [React.js](https://reactjs.org/) - Written in React.js 17.0.2
 - [Next.js](https://nextjs.org/) - Written in Next.js 12.0.7
 - [SASS](https://sass-lang.com/) - Written using SASS 1.49.9
 - [Vercel](https://vercel.com/) - Hosted on Vercel
 
-## Author
+## Manifested by
 
 - [Yeluri Ketan](https://github.com/YeluriKetan) - Undergraduate, Computer Science, NUS '24
 
-## Acknowledgements
+## Thank you!
 
-- [Dark theme inspiration](https://kaitlinmctigue.github.io/#/)
+- [Dark theme](https://kaitlinmctigue.github.io/#/)
 - [Typewriting name animation](https://youtu.be/w1nhwUGsG6M)
 - [Card Hover animation](https://codepen.io/JackCuthbert/pen/pjZzGE)

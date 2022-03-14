@@ -6,17 +6,15 @@ intro: "Trying to solve algorithmic coding problems"
 
 # Project TREADS
 
-**TREADS** stands for **T**ry, **R**ealize and **E**xplore **A**lgorithms and **D**ata **S**tructures
+> **TREADS** stands for **T**ry, **R**ealize and **E**xplore **A**lgorithms and **D**ata **S**tructures
 
 ## About
 
-I like solving problems, irrespective of the nature and extent of the problem. As a Computer Science undergraduate student, I was introduced to programming problems in a course [module](https://nusmods.com/modules/CS2040S/data-structures-and-algorithms). And ever since, solving problems with code while listening to lofi music has been my go-to productive pastime.
+> I like solving problems, irrespective of the nature and extent of the problem. As a Computer Science undergraduate student, I was introduced to programming problems in a course [module](https://nusmods.com/modules/CS2040S/data-structures-and-algorithms). And ever since, solving problems with code while listening to lofi music has been my go-to productive pastime.
 
-Initiated on 04th March, 2021, the aim of Project TREADS is to learn, understand, practice and explore theoretical knowledge and practical skills in the concepts of **Algorithms and Data Structures**.
+> Initiated on 04th March, 2021, the aim of Project TREADS is to learn, understand, practice and explore theoretical knowledge and practical skills in the concepts of **Algorithms and Data Structures**.
 
-This repo contains **MY** version of solutions to algorithmic and competitive programming problems from platforms like LeetCode, CODECHEF and Google Kick Start. The solutions are written either **Java** or **C++**. All solutions in the repo are free to use and learn from, with their corresponding questions of the same name available on the specified platform.
-
-## Stats
+## Fun numbers...
 
 - Beginning on 04th March, 2021, this project is currently in progress with over 150+ hours of active problem solving and coding.
 
@@ -33,7 +31,7 @@ This repo contains **MY** version of solutions to algorithmic and competitive pr
 
 - About 10 problems solved on Google Kick Start
 
-## Tech
+## Some tech stuff
 
 - [Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) - Written in Java™ SE Development Kit 11.0.9 (JDK 11.0.9)
 
@@ -43,23 +41,6 @@ This repo contains **MY** version of solutions to algorithmic and competitive pr
 
 - [CLion](https://www.jetbrains.com/clion/download/#section=windows) - A cross-platform IDE for C and C++
 
-## Usage
+## With love
 
-1. Open the platform-based directory of your choice.
-2. Navigate through lexicographically distributed sub-directories.
-3. Open the directory with the same name as the problem of your choice.
-4. Inside the directory,
-   - the `src` sub-directory would contain appropriately named **Java** solution and (occasionally) test files.
-   - `Solution.cpp` would contain the **C++** solution.
-
-## Author
-
-[Yeluri Ketan](https://github.com/YeluriKetan) - Undergraduate, Computer Science, NUS '24
-
-#
-
-**Note:**
-
-- Solutions in this repo might not always be the fastest or most efficient in terms of space usage.
-- My solution to any of the included problems is just one way of solving the problem and is not the only right way to solve it.
-- You might find likeness between the solutions in this repo and other openly available solutions on the internet. This could be a result of me taking inspiration/help from similar solutions or just sheer coincidence.
+- [Yeluri Ketan](https://github.com/YeluriKetan)
