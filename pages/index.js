@@ -23,7 +23,10 @@ export default function Home() {
           />
         </article>
         <article className={homeStyles.meanwhile}>
-          <p>Website still under progress. Meanwhile...</p>
+          <p>
+            Website still under progress.{" "}
+            <strong>Works best on desktop full-screen</strong>. Meanwhile...
+          </p>
           <div className={homeStyles.article}>
             <Link href="/projects">
               <a className={homeStyles.ignoreLink}>
