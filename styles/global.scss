@@ -13,11 +13,14 @@ body {
   line-height: 1.5;
   font-size: 1rem;
   overflow-x: hidden;
+  background-color: colors.$background;
+  background-image: url("./../public/background-pattern.png");
+  background-size: 600px 600px;
+
 }
 
 * {
   box-sizing: border-box;
-  background-color: colors.$background;
   color: colors.$text;
 
   h1,
