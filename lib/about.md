@@ -11,7 +11,7 @@
 Bachelor of Computing in Computer Science (with Honours) - **Aug 2020 - May 2024**
 
 - National University of Singapore
-- Cumulative Average Points: 4.58/5.00 (Expected Honors with Distinction)
+- Cumulative Average Points: 4.48/5.00
 - Expected Focus Area in Artificial Intelligence and Algorithms & Theory
 - Minor in Mathematics
 
@@ -27,6 +27,7 @@ Bachelor of Computing in Computer Science (with Honours) - **Aug 2020 - May 2024
 ### Notable projects
 
 - [Project WAR](/projects/war)
+- [Project GARAGE](/projects/garage)
 - [gitGud](/projects/gitgud)
 - [Dollar Finder](/projects/dollar-finder)
 
@@ -40,6 +41,9 @@ Bachelor of Computing in Computer Science (with Honours) - **Aug 2020 - May 2024
 - **Team Lead, Pioneer House Media Team, NUS**
   - Initiated and established the Media Team as an asset to Pioneer
     House, with photography being the main focus
+- **Chief Communications Officer, Pioneer House Student
+  Council, NUS**
+  - Coordinated a team of graphic designers and media personnel for the public efforts of Pioneer House
 
 ### Interests
 
@@ -51,12 +55,21 @@ Bachelor of Computing in Computer Science (with Honours) - **Aug 2020 - May 2024
 ### Competitive Programming
 
 - LeetCode - [Profile](https://leetcode.com/Ketan_Yeluri/)
-  - 370+ questions with over a 160-day ongoing streak
+  - 390+ questions with over a 180-day streak
 - CODECHEF - [Profile](https://www.codechef.com/users/yeluriketan)
   - Participated in 10+ contests
+- Codeforces - [Profile](https://codeforces.com/profile/YeluriKetan)
+  - 150+ problems solved with over a 120-day ongoing streak
 - Advent of Code - [Article](/projects/maniac)
   - Completed 2020 and 2021 editions
 - Google Hash Code
   - Competed in the 2022 edition
+- Google Kick Start
+  - 2022
+    - Round A - Ranked 3130
+    - Round C - Ranked 2769
+    - Round D - Ranked 4888
+- Shopee Code League 2022
+  - Ranked 236 / 2393 teams
 
 ![Yeluri Ketan](/images/profile.jpg)

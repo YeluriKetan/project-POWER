@@ -6,7 +6,7 @@ intro: "We built a simple WORDLE solver in C++"
 
 # Project WAR - [Repo](https://github.com/YeluriKetan/project-WAR)
 
-> **WAR** stands for **W**ordle **A**nswer and **R**esolver
+> **WAR** stands for **W**ordle **A**nswer **R**esolver
 
 ## What is WORDLE?
 
