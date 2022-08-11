@@ -23,10 +23,6 @@ export default function Home() {
           />
         </article>
         <article className={homeStyles.meanwhile}>
-          <p>
-            Website still under progress.{" "}
-            <strong>Works best on desktop full-screen</strong>. Meanwhile...
-          </p>
           <div className={homeStyles.article}>
             <Link href="/projects">
               <a className={homeStyles.ignoreLink}>
@@ -62,6 +58,9 @@ export default function Home() {
               </a>
             </Link>
           </div>
+          <p>
+            Currently playing <b>Unrailed</b>, listening to <b>AOTP - KSI</b>
+          </p>
         </article>
         <article className={homeStyles.iconArticle}>
           <p>Connect:</p>

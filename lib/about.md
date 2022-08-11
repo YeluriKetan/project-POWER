@@ -1,18 +1,22 @@
-![Yeluri Ketan](/images/formal-profile.jpg)
+<img alt="Yeluri Ketan" src="/images/formal-profile.jpg" class="profile-img" />
 
 ## Hello, I am Yeluri Ketan.
 
-#### I am an international student from India currently residing in Singapore. I love solving puzzles and problems, computational or not. I am passionate about photography and movies.
+<p class="trying">
+  I love <b>solving problems</b> and <b>creating products</b>. <br>
+  I am passionate about <b>photography</b> and <b>films</b>, <br>
+  and am a sucker for <b>minimalism</b>.
+</p>
 
-#### [Download resume](resume.pdf)
+## [Download resume](resume.pdf)
 
 ### Education
 
-Bachelor of Computing in Computer Science (with Honours) - **Aug 2020 - May 2024**
+Bachelor of Computing in Computer Science (Honours) - **Aug 2020 - May 2024**
 
 - National University of Singapore
 - Cumulative Average Points: 4.48/5.00
-- Expected Focus Area in Artificial Intelligence and Algorithms & Theory
+- Focus Areas in Artificial Intelligence and Algorithms & Theory
 - Minor in Mathematics
 
 ### Known programming languages and their respective libraries
@@ -22,7 +26,7 @@ Bachelor of Computing in Computer Science (with Honours) - **Aug 2020 - May 2024
 - Java - JavaFX
 - C++ - STL
 - Python - Cryptodome, Pandas
-- HTML, CSS, JS - ReactJS, NextJS, MaterialUI, SASS
+- HTML, CSS, JS - ReactJS, NextJS, p5.js, MaterialUI, SASS,
 
 ### Notable projects
 
@@ -49,8 +53,8 @@ Bachelor of Computing in Computer Science (with Honours) - **Aug 2020 - May 2024
 
 - Algorithms and Theory
 - Artificial Intelligence
-- CTFs
 - Competitive Programming
+- Web Development
 
 ### Competitive Programming
 
@@ -59,7 +63,7 @@ Bachelor of Computing in Computer Science (with Honours) - **Aug 2020 - May 2024
 - CODECHEF - [Profile](https://www.codechef.com/users/yeluriketan)
   - Participated in 10+ contests
 - Codeforces - [Profile](https://codeforces.com/profile/YeluriKetan)
-  - 150+ problems solved with over a 120-day ongoing streak
+  - 160+ problems solved with over a 120-day ongoing streak
 - Advent of Code - [Article](/projects/maniac)
   - Completed 2020 and 2021 editions
 - Google Hash Code
@@ -72,4 +76,6 @@ Bachelor of Computing in Computer Science (with Honours) - **Aug 2020 - May 2024
 - Shopee Code League 2022
   - Ranked 236 / 2393 teams
 
-![Yeluri Ketan](/images/profile.jpg)
+## [Download resume](resume.pdf)
+
+<img alt="Yeluri Ketan" src="/images/profile.jpg" class="profile-img" />

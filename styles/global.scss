@@ -15,8 +15,9 @@ body {
   overflow-x: hidden;
   background-color: colors.$background;
   background-image: url("./../public/background-pattern.png");
-  background-size: 600px 600px;
-
+  background-size: 1000px 1000px;
+  background-position: 0px center;
+  background-attachment: fixed;
 }
 
 * {
@@ -74,4 +75,13 @@ img {
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(92, 219, 149, 0.5);
+}
+
+.trying {
+  font-size: 1.5rem;
+  text-align: center;
+  b {
+    color: colors.$heading;
+    font-weight: normal;
+  }
 }

@@ -6,7 +6,7 @@ intro: "Random array generation based on a given pattern"
 
 # Project GARAGE - [Repo](https://github.com/YeluriKetan/project-GARAGE), [Live](https://yeluriketan.github.io/project-GARAGE/)
 
-![Logo](https://raw.githubusercontent.com/YeluriKetan/project-GARAGE/master/public/logo.png)
+<img alt="Logo" src="https://raw.githubusercontent.com/YeluriKetan/project-GARAGE/master/public/logo.png" width="150" />
 
 > **GARAGE** stand for **G**raph **A**ugmented **R**andom **A**rray **G**eneration **E**ngine
 
@@ -20,9 +20,9 @@ intro: "Random array generation based on a given pattern"
 
 ## How does it work?
 
-![Numbers confusing gif](https://c.tenor.com/phAqVBNpQ1QAAAAd/will-ferrell-confused.gif)
+<img alt="Numbers confusing gif" src="https://c.tenor.com/phAqVBNpQ1QAAAAd/will-ferrell-confused.gif" width="300" />
 
-> Once the generate button is pressed, a snapshot of the sliders and input values is taken to prevent any memory corruption during the generation. Sliders each have a resolution of 300. A set of unique random integers within the bounds is generated and mapped to the slider values. The mapping is done by sorting the slider values (while keeping track of the slider they belong to) and sorting the random values, which are then mapped [bijectively](https://en.wikipedia.org/wiki/Bijection). The required amount of remaining values are generated randomly and their uniqueness is ensured by maintaining a set of generated values. Once this set is obtained, the values are sorted and then sprinkled (literally) in the intervals between each slider.
+> Once the generate button is pressed, a snapshot of the sliders and input values is taken to prevent any memory corruption during the generation. Sliders each have a resolution of 300. A set of unique random integers within the bounds is generated and mapped to the slider values. The mapping is done by sorting the slider values (while keeping track of the slider they belong to) and sorting the random values, which are then mapped [bijectively](https://en.wikipedia.org/wiki/Bijection). The required amount of remaining values are generated randomly and their uniqueness is ensured by maintaining a set of generated values. Once this set is obtained, the values are sorted and then [sprinkled procedurally](https://github.com/YeluriKetan/project-GARAGE/blob/71b4e9465d24bd91b11903b94091d04fe93ace98/src/components/Data.js#L84) (and literally) in the intervals between each slider. Since the mapped slider values are chosen arbitrarily, the size of intervals between each slider cannot be uniform, not to forget the intervals can overlap (over a peak or valley). Hence the distribution of the generated numbers amongst the intervals is also arbitrary.
 
 ## But there are limits!
 
@@ -33,7 +33,7 @@ intro: "Random array generation based on a given pattern"
 - Number of sliders <= Count <= 50000
 - 2 <= Number of sliders <= 10
 
-![Rookie number gif](https://c.tenor.com/uN_sLmFqa9cAAAAC/wolf-of-wall-street-rookie-numbers.gif)
+<img alt="Rookie number gif" src="https://c.tenor.com/uN_sLmFqa9cAAAAC/wolf-of-wall-street-rookie-numbers.gif" width="300" />
 
 ## Put together using
 

@@ -12,7 +12,7 @@ intro: "How and Why I built this website..."
 
 > I did it! I finally have my own custom-designed personalized website. I have dreamt about this since the first day I started learning web dev almost a year ago during my time on [Dollar Finder](/projects/dollar-finder). I could not stop thinking about the endless possibilities to design and create stuff, and the kind on content I could put on the website. I guess I alwayed wanted a way to channel my creative desires, be it in the from of a tiny no-longer funtional [YouTube channel](https://www.youtube.com/channel/UCHXmvv-6fxaZNXc0_VYIDBQ/) (RIP) or just [experimenting with a camera](/gallery).
 
-![Finally gif](https://media1.giphy.com/media/wXnmM6hHFtz3IulO36/giphy.gif?cid=790b7611c7304e007b9f7602aa98246b1b084205ccfa2efc&rid=giphy.gif)
+<img alt="Finally gif" src="https://media1.giphy.com/media/wXnmM6hHFtz3IulO36/giphy.gif?cid=790b7611c7304e007b9f7602aa98246b1b084205ccfa2efc&rid=giphy.gif" width="300"/>
 
 ## Choosing the right tools
 
@@ -20,15 +20,15 @@ intro: "How and Why I built this website..."
 
 ## Brace for some more technical jargon
 
-> Content for the About page and all the Project articles are stored in their own separate markdown files. These markdown files are then parsed using [remark](https://www.npmjs.com/package/remark), converted to HTML using [remark-html](https://www.npmjs.com/package/remark-html) (I'm considering using [remark-gfm](https://www.npmjs.com/package/remark-gfm)) and then placed into their respective pages. The images (sadly, compressed versions) are currently stored in the codebase on github. Themeing, formatting and styling is done using SASS modules. Harnessing the Next.js' power of Static Site Generation (SSG), all the HTML pages are pre-rendered at build time, ready to be reused and served upon each request.
+> Content for the About page and all the Project articles writted in markdown and embedded html is stored in their own separate markdown files. These markdown files are then parsed using [unified](https://www.npmjs.com/package/unified) and its plugins, converted to html and inserted into their respective pages. The images (sadly, compressed versions) are currently stored in the codebase on github. Themeing, formatting and styling is done using SASS modules. Harnessing the Next.js' power of Static Site Generation (SSG), all the HTML pages are pre-rendered at build time, ready to be reused and served upon each request.
 
 > At this point, there was still some room for a potential "**WOW**" factor on the website. That resulted in me spending about an hour on animating my name at the top left of the header bar. It was totally worth it!
 
 ## So what's next?
 
-![What's next gif](https://media1.giphy.com/media/3oz8xCsYTaeGxtF1W8/giphy.gif?cid=ecf05e47s518lnohv2roxl4ndbd2uh08h88rq6rlh8wmwmbl&rid=giphy.gif)
+<img alt="What's next gif" src="https://media1.giphy.com/media/3oz8xCsYTaeGxtF1W8/giphy.gif?cid=ecf05e47s518lnohv2roxl4ndbd2uh08h88rq6rlh8wmwmbl&rid=giphy.gif" width="350"/>
 
-> For starters, I need to look into using a [Content Delivery Network (CDN)](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/) to host images for my Gallery page. This should make my codebade lighter, improve website load time, reduce bandwidth usage on Vercel, and enable me to host and serve a larger quantity of images with efficieny. I'll probably give light-mode theme a try in the process.
+> For starters, I need to look into using a [Content Delivery Network (CDN)](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/) to host images for my Gallery page. This should make my codebase lighter, improve website load time, reduce bandwidth usage on Vercel, and enable me to host and serve a larger quantity of images with efficieny. I'll probably give light-mode theme a try in the process.
 
 > I also want to add a "Blog" section to the website; somewhere I can write about stuff in general, you know, the non-technical kind. Maybe I saw a movie and I liked it too much or maybe I hated it to hell and back. Somewhere I can praise and/or rant about something, or just be myself. But there's still a long way ahead for that. Most importantly, I need to learn how to be comfortable and satisfied with the content I put out on the open internet.
 

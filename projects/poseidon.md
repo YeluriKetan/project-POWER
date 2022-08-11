@@ -6,7 +6,7 @@ intro: "Built a GUI desktop application for task tracking using Java"
 
 ## Project POSEIDON - [Repo](https://github.com/YeluriKetan/ip), [Website](https://yeluriketan.github.io/ip/)
 
-![Poseidon logo](https://raw.githubusercontent.com/YeluriKetan/ip/master/src/main/resources/images/Logo.png)
+<img alt="Poseidon logo" src="https://raw.githubusercontent.com/YeluriKetan/ip/master/src/main/resources/images/Logo.png" width="200" />
 
 > **POSEIDON** - stands for **P**lanner and **O**rganizer that's **S**imple, **E**fficient, **I**ntelligent, **D**igital, **O**ptimized and **N**ifty.
 
@@ -14,7 +14,7 @@ intro: "Built a GUI desktop application for task tracking using Java"
 
 > Poseidon is a **desktop application for keeping track of todo tasks, upcoming deadlines and planning events**. Poseidon's efficient and intelligent algorithm, combined with an **optimized Command Line Interface (CLI)** and a **simple Graphical User Interface (GUI)** gives you a fast and smooth user experience. If you can type fast, Poseidon can help you plan and organize your day faster than traditional GUI apps.
 
-![Poseidon UI](https://raw.githubusercontent.com/YeluriKetan/ip/master/docs/Ui.png)
+<img alt="Poseidon UI" src="https://raw.githubusercontent.com/YeluriKetan/ip/master/docs/Ui.png" width="400" />
 
 > Poseidon was built as a **[green-field](https://en.wikipedia.org/wiki/Greenfield_project#Software_development) individual software project** as part of [CS2103T - Software Engineering](https://nusmods.com/modules/CS2103T/software-engineering), a course/module taken in Year 2 Semester 1 of my undergraduate studies.
 

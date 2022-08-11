@@ -18,7 +18,7 @@ intro: "Attempting the prestigious Advent of Code"
 
 ## What's in it for me?
 
-![New challenger gif](https://media1.giphy.com/media/xT5LMKIRjeuTucKFgI/giphy.gif?cid=790b76113e2440f07adaf35dc34b57f4d007765e6b8d744c&rid=giphy.gif)
+<img alt="New challenger gif" src="https://media1.giphy.com/media/xT5LMKIRjeuTucKFgI/giphy.gif?cid=790b76113e2440f07adaf35dc34b57f4d007765e6b8d744c&rid=giphy.gif" width="400" />
 
 > I heard about Advent of Code for the first time in [December of '20](https://adventofcode.com/2020), but I did not think much of it owing to the fact that it had been only 4 months since I wrote my first piece of code. When people started gearing up for the ['21 edition](https://adventofcode.com/2021), I had a bit of [experience](/projects/treads) by then. I wanted to give it a proper shot this time, and [NUS Hackers](https://www.nushackers.org/) came in with a private leaderboard (I do fancy myself a good competition).
 
@@ -28,7 +28,7 @@ intro: "Attempting the prestigious Advent of Code"
 
 > No promises, but I will try to honor the tradition by attempting the challenge again this December ('22).
 
-![Waiting for december meme](https://poster.keepcalmandposters.com/25885.png)
+<img alt="Waiting for december meme" src="https://poster.keepcalmandposters.com/25885.png" width="300" />
 
 ## Using
 

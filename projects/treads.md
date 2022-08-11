@@ -12,24 +12,25 @@ intro: "Trying to solve algorithmic coding problems"
 
 > I like solving problems, irrespective of the nature and extent of the problem. As a Computer Science undergraduate student, I was introduced to programming problems in a course [module](https://nusmods.com/modules/CS2040S/data-structures-and-algorithms). And ever since, solving problems with code while listening to lofi music has been my go-to productive pastime.
 
-![Linked list meme](https://i.redd.it/qxgj6hbb4r461.png)
+<img alt="Linked list meme" src="https://i.redd.it/qxgj6hbb4r461.png" width="400" />
 
 > Initiated on 04th March, 2021, the aim of Project TREADS is to learn, understand, practice and explore theoretical knowledge and practical skills in the concepts of **Algorithms and Data Structures**.
 
 ## Fun numbers...
 
-- Beginning on 04th March, 2021, this project is currently in progress with over 150+ hours of active problem solving and coding.
-- Over 370+ problems solved on LeetCode - [profile](https://leetcode.com/Ketan_Yeluri/)
+- Beginning on 04th March, 2021, this project is currently in progress with over 200+ hours of active problem solving and coding.
+- Over 390+ problems solved on LeetCode - [profile](https://leetcode.com/Ketan_Yeluri/)
   - 120+ are of Easy level difficulty with an acceptance rate of 90+ %
   - 210+ are of Medium level difficulty with an acceptance rate of 95+ %
   - 35+ are of Hard level difficulty with an acceptance rate of 85+ %
-  - 160+ day streak for Daily Coding Challenge
+  - 180-day streak
   - Competed in 6 weekly contests
-- About 50 problems solved on CODECHEF - [profile](https://www.codechef.com/users/yeluriketan)
-  - Participated in 10+ Competitive Programming Contests
-- About 10 problems solved on Google Kick Start
+- About 55 problems solved on CODECHEF - [profile](https://www.codechef.com/users/yeluriketan)
+  - Participated in 12+ Competitive Programming Contests
+- Over 160+ problems solved on Codeforces - [profile](https://codeforces.com/profile/YeluriKetan)
+  - 120+ day ongoing streak
 
-![Consistency gif](https://media4.giphy.com/media/Y3fGEk6ZfI2il07BgX/giphy.gif?cid=ecf05e47cn8jw4psmhui2umc6m31ukpswjulj38ilccmatls&rid=giphy.gif)
+<img alt="Consistency gif" src="https://media4.giphy.com/media/Y3fGEk6ZfI2il07BgX/giphy.gif?cid=ecf05e47cn8jw4psmhui2umc6m31ukpswjulj38ilccmatls&rid=giphy.gif" width="400" />
 
 ## Some tech stuff
 

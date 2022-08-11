@@ -6,7 +6,7 @@ intro: "We made a desktop application for managing friends' gaming information"
 
 ## gitGud - [Repo](https://github.com/AY2122S1-CS2103T-W13-4/tp), [Website](https://ay2122s1-cs2103t-w13-4.github.io/tp/)
 
-![Get good gif](https://media3.giphy.com/media/10CopumcRWLMYM/giphy.gif?cid=ecf05e47rrdr6qiajd4bvztmippdu4ukr1i91zvqeu07h2am&rid=giphy.gif)
+<img alt="Get good gif" src="https://media3.giphy.com/media/10CopumcRWLMYM/giphy.gif?cid=ecf05e47rrdr6qiajd4bvztmippdu4ukr1i91zvqeu07h2am&rid=giphy.gif" width="300" />
 
 > **gitGud** is a [slang rendering](https://www.dictionary.com/e/slang/git-gud/) of **get good**, and refers to getting better at a task or skill, used especially among video gamers online.
 
@@ -26,7 +26,7 @@ intro: "We made a desktop application for managing friends' gaming information"
 
 ## Did I learn anything?
 
-![Did you learn anything gif](https://media2.giphy.com/media/v5EwIRe0rLJ9Xptz9c/giphy.gif?cid=790b76116c0539becf0256e84c5c2b3f67c14344f06aad43&rid=giphy.gif)
+<img alt="Did you learn anything gif" src="https://media2.giphy.com/media/v5EwIRe0rLJ9Xptz9c/giphy.gif?cid=790b76116c0539becf0256e84c5c2b3f67c14344f06aad43&rid=giphy.gif" width="400" />
 
 > This was my first experience working on a software project in a team setting. Naturally it came with its own challenges like communication, creative conflicts, deadlines and different working styles. I learnt how to and how not to deal with these challenges, and the importance of respecting others' time. I also learnt technical stuff like - **the different types of [SDLC](https://en.wikipedia.org/wiki/Systems_development_life_cycle), design, requirements, modelling, testing, documentation, project management, and common SE tools/practices**.
 
