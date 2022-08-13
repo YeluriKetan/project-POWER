@@ -35,13 +35,13 @@ intro: "How and Why I built this website..."
 ## Stats, cause why not?
 
 - Project started on March 6th, 2022
-- Time taken to build: 12 hours
+- Time taken to build: 20 hours
 - Tears of happiness shed: 4
 
 ## Built using
 
-- [React.js](https://reactjs.org/) - Written in React.js 17.0.2
 - [Next.js](https://nextjs.org/) - Written in Next.js 12.0.7
+- [React.js](https://reactjs.org/) - Written in React.js 17.0.2
 - [SASS](https://sass-lang.com/) - Written using SASS 1.49.9
 - [Vercel](https://vercel.com/) - Hosted on Vercel
 

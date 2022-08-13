@@ -4,11 +4,11 @@
 
 ## About
 
-Repository for personal website.
+Repository for personal website. Read more [here](https://yeluriketan.vercel.app/projects/power).
 
 ## Stats
 
-- Time taken to build: 14 hours
+- Time taken to build: 20 hours
 
 ## Tech
 
@@ -16,9 +16,11 @@ Repository for personal website.
 
 - [SASS](https://sass-lang.com/) - Written using SASS 1.49.9
 
+- [Vercel](https://vercel.com/) - Hosted on Vercel
+
 ## Live
 
-Visit the live version here (coming soon)
+Visit the live version [here](https://yeluriketan.vercel.app/).
 
 ## Author
 

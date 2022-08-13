@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "./layout.module.scss";
+import styles from "../styles/Layout.module.scss";
 import Link from "next/link";
 import Header from "./header";
 
