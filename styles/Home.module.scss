@@ -14,6 +14,7 @@
   align-items: center;
   justify-content: space-evenly;
   margin: 1rem 0;
+  flex-wrap: wrap;
 }
 
 .meanwhile {
@@ -99,6 +100,10 @@
   }
 }
 
+.currentStatus {
+  margin: 0 0 0.5rem 0;
+}
+
 .iconArticle {
   width: 500px;
   display: flex;
@@ -111,4 +116,48 @@
 .githubIcon {
   background-color: white;
   border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+  .article {
+    width: 80vw;
+    flex-direction: column;
+    margin: 1rem 0;
+    flex-wrap: nowrap;
+  }
+
+  .section {
+    width: 80vw;
+    height: 8rem;
+
+    p {
+      width: 85%;
+      font-size: 0.8rem;
+    }
+  }
+  
+  .currentStatus {
+    width: 85vw;
+    text-align: center;
+
+  }
+
+  .iconArticle {
+    width: 90vw;
+    
+    a {
+      width: 30px;
+    }
+  }
+
+  .githubIcon {
+    background-color: white;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 340px) {
+  .section {
+    height: 9rem;
+  }
 }

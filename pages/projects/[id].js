@@ -2,7 +2,7 @@ import Head from "next/head";
 import Layout from "../../components/layout";
 import { getAllProjectIds, getProjectData } from "../../lib/projects";
 import Date from "../../components/date";
-import utilStyles from "./../../styles/utils.module.scss";
+import idStyles from "./../../styles/Id.module.scss";
 
 export async function getStaticProps({ params }) {
   const projectData = await getProjectData(params.id);
@@ -27,9 +27,9 @@ export default function Project({ projectData }) {
       <Head>
         <title>{projectData.title}</title>
       </Head>
-      <article className={utilStyles.resizeImages}>
-        <h1 className={utilStyles.headingxl}>{projectData.title}</h1>
-        <div className={utilStyles.lightText}>
+      <article className={idStyles.articleContainer}>
+        <h1 className={idStyles.articleTitle}>{projectData.title}</h1>
+        <div className={idStyles.articleDate}>
           <Date dateString={projectData.date} formatString="LLL yyyy" />
         </div>
         <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />

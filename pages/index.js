@@ -58,7 +58,7 @@ export default function Home() {
               </a>
             </Link>
           </div>
-          <p>
+          <p className={homeStyles.currentStatus}>
             Currently playing <b>Unrailed</b>, listening to <b>AOTP - KSI</b>
           </p>
         </article>

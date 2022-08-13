@@ -15,9 +15,10 @@ body {
   overflow-x: hidden;
   background-color: colors.$background;
   background-image: url("./../public/background-pattern.png");
-  background-size: 1000px 1000px;
-  background-position: 0px center;
+  background-size: 1500px 1000px;
+  background-position: center center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 * {
@@ -83,5 +84,11 @@ img {
   b {
     color: colors.$heading;
     font-weight: normal;
+  }
+}
+
+@media (max-width: 600px) {
+  .trying {
+    font-size: 1rem !important;
   }
 }

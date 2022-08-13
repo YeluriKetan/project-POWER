@@ -87,3 +87,21 @@
   margin: 0;
   line-height: 0.8;
 }
+
+@media (max-width: 600px) {
+  .main {
+    margin: 0 0 1rem;
+  }
+
+  .div {
+    font-size: 0.9rem;
+    width: 85vw;
+    padding: 0.6rem 0.5rem;
+  }
+
+  .projectsTitle {
+    font-size: 1rem;
+    margin: 0;
+    line-height: 1.5;
+  }
+}

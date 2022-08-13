@@ -6,7 +6,7 @@ intro: "Random array generation based on a given pattern"
 
 # Project GARAGE - [Repo](https://github.com/YeluriKetan/project-GARAGE), [Live](https://yeluriketan.github.io/project-GARAGE/)
 
-<img alt="Logo" src="https://raw.githubusercontent.com/YeluriKetan/project-GARAGE/master/public/logo.png" width="150" />
+<img alt="Logo" src="https://raw.githubusercontent.com/YeluriKetan/project-GARAGE/master/public/logo.png" width="150"/>
 
 > **GARAGE** stand for **G**raph **A**ugmented **R**andom **A**rray **G**eneration **E**ngine
 

@@ -14,15 +14,6 @@
     margin: 2rem 0 1rem 0;
   }
 
-  h4 {
-    font-size: 1rem;
-    font-weight: normal;
-    text-align: center;
-    margin: 1rem 0 2rem 0;
-
-    color: colors.$text;
-  }
-
   div {
     width: 60%;
     margin: 0.5rem 0;
@@ -47,9 +38,11 @@
       animation-play-state: paused;
     }
   }
+
+  ul {
+    padding-left: 1.5rem;
+  }
 }
-
-
 
 @keyframes morbin-time {
   0%,
@@ -66,27 +59,29 @@
   }
 }
 
+@media (max-width: 700px) {
+  .main {
+    padding: 0 1.5rem;
 
-.languagesList {
-  list-style: none;
-  li {
-    display: flex;
-    flex-direction: row;
-    width: inherit;
-    justify-content: space-between;
-    margin: 0.2rem 2rem;
-    p {
+    h2 {
+      font-size: 1.1rem;
+      margin: 1rem 0;
+    }
+
+    div {
+      width: 100%;
       margin: 0;
+      font-size: 0.7rem;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      margin: 1rem auto;
+    }
+    
+    ul {
+      padding-left: 1rem;
     }
   }
-}
-
-.subtitle {
-  margin: 0 !important;
-}
-
-.bottomImage {
-  margin: 2rem 0;
-  width: fit-content;
-  height: fit-content;
 }
