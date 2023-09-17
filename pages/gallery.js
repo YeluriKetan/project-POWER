@@ -3,7 +3,9 @@ import Head from "next/head";
 import { getAllImagesLinks } from "../lib/gallery";
 import Image from "next/image";
 import galleryStyles from "../styles/Gallery.module.scss";
+import utilStyles from "../styles/utils.module.scss";
 import Date from "../components/date";
+import Footer from "../components/footer";
 
 export async function getStaticProps() {
   const allImagesLinks = getAllImagesLinks();
@@ -16,11 +18,11 @@ export async function getStaticProps() {
 
 export default function Gallery({ allImagesLinks }) {
   return (
-    <>
+    <div className={utilStyles.page}>
       <Head>
         <title>Gallery</title>
       </Head>
-      <Header gallery></Header>
+      <Header page="gallery"></Header>
       <main className={galleryStyles.main}>
         {allImagesLinks.map(({ title, date, link }) => (
           <div key={title} className={galleryStyles.image}>
@@ -41,6 +43,7 @@ export default function Gallery({ allImagesLinks }) {
           </div>
         ))}
       </main>
-    </>
+      <Footer></Footer>
+    </div>
   );
 }

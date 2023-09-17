@@ -23,7 +23,7 @@ export async function getStaticPaths() {
 
 export default function Project({ projectData }) {
   return (
-    <Layout>
+    <Layout header_highlight="projects" parent_page="Projects">
       <Head>
         <title>{projectData.title}</title>
       </Head>

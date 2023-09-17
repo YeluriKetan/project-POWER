@@ -1,13 +1,15 @@
 import Head from "next/head";
 import Header from "../components/header";
 import homeStyles from "../styles/Home.module.scss";
+import utilStyles from "../styles/utils.module.scss";
 import Link from "next/link";
 import Image from "next/image";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
-    <div>
-      <Header home></Header>
+    <div className={utilStyles.page}>
+      <Header page="home"></Header>
       <Head>
         <title>Yeluri Ketan</title>
       </Head>
@@ -24,6 +26,19 @@ export default function Home() {
         </article>
         <article className={homeStyles.meanwhile}>
           <div className={homeStyles.article}>
+            <Link href="/blog">
+              <a className={homeStyles.ignoreLink}>
+                <section className={homeStyles.section}>
+                  <p>
+                    Care to indulge in some of my shenanigans, escapades, or
+                    learnings?
+                  </p>
+                  <p>
+                    Check out my <a>Blog</a>.
+                  </p>
+                </section>
+              </a>
+            </Link>
             <Link href="/projects">
               <a className={homeStyles.ignoreLink}>
                 <section className={homeStyles.section}>
@@ -59,53 +74,12 @@ export default function Home() {
             </Link>
           </div>
           <p className={homeStyles.currentStatus}>
-            Currently playing <b>Unrailed</b>, listening to <b>AOTP - KSI</b>
+            Currently playing <b>F1 Clash</b>, listening to{" "}
+            <b>Across the Spiderverse - Metro Boomin</b>
           </p>
         </article>
-        <article className={homeStyles.iconArticle}>
-          <p>Connect:</p>
-          <a
-            href="https://www.linkedin.com/in/ketanyeluri/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Image
-              src="/images/linkedin.svg"
-              width="40"
-              height="40"
-              alt="Link to my LinkedIn profile"
-              priority
-            />
-          </a>
-          <a
-            href="https://www.instagram.com/legend_for_eternity/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Image
-              src="/images/instagram.png"
-              width="40"
-              height="40"
-              alt="Link to my Instagram account"
-              priority
-            />
-          </a>
-          <a
-            href="https://github.com/YeluriKetan/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Image
-              src="/images/github.png"
-              width="40"
-              height="40"
-              alt="Link to my Github account"
-              priority
-              className={homeStyles.githubIcon}
-            />
-          </a>
-        </article>
       </main>
+      <Footer></Footer>
     </div>
   );
 }
