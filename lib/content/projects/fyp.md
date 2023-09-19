@@ -28,6 +28,12 @@ Build a library/module with well documented API that allows users to **compute**
 - **extreme conditions** - such as near black holes
 - **interaction** - be able to see and edit the code, setup and configuration to understand and visualize the effects
 
+The idea is to then make this library integrated and available in the [Source Academy](https://about.sourceacademy.org/) environment to enable experiential learning of physics and coding.
+
 ## How is it looking now?
 
-The project is currently in the inital research and setup stage, where I take a deeper dive into some of the mathematical and design challenges that I anticipate. I will try to regularly update this page with new and interesting updates.
+For the initial research phase of the project, I took a deeper dive into some of the physics modelling challenges and integration methods required for the discrete simulation.
+
+Following that, I spent time designing the library to be as open to extension and customisation as possible. This included setting up library methods that users can use or pass in custom integration methods or force equations by following set interfaces.
+
+As I continue to work on the prototype, I will try to regularly update this page with new and interesting updates.
