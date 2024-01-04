@@ -19,13 +19,13 @@ export default function Layout({ children, header_highlight, parent_page }) {
       <main>
         <div className={styles.container}>
           <div className={styles.backToHome}>
-            <Link href={"/" + parent_page.toLowerCase()}>
+            <Link legacyBehavior href={"/" + parent_page.toLowerCase()}>
               <a>← Back to {parent_page}</a>
             </Link>
           </div>
           {children}
           <div className={styles.backToHome}>
-            <Link href={"/" + parent_page.toLowerCase()}>
+            <Link legacyBehavior href={"/" + parent_page.toLowerCase()}>
               <a>← Back to {parent_page}</a>
             </Link>
           </div>

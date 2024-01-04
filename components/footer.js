@@ -51,7 +51,12 @@ export default function Footer() {
       <article>
         <p>
           Meticulously handcrafted with ❤️ using{" "}
-          <Link href="/projects/power" rel="noreferrer" target="blank">
+          <Link
+            legacyBehavior
+            href="/projects/power"
+            rel="noreferrer"
+            target="blank"
+          >
             Nextjs
           </Link>
         </p>

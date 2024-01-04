@@ -27,7 +27,7 @@ export default function Project({ allProjectsData }) {
         <ul className={projectsStyles.list}>
           {allProjectsData.map(({ id, date, title, intro }) => (
             <li className={projectsStyles.listItem} key={id}>
-              <Link href={`/projects/${id}`}>
+              <Link legacyBehavior href={`/projects/${id}`}>
                 <a className={projectsStyles.link}>
                   <div className={projectsStyles.div}>
                     <h3 className={projectsStyles.projectsTitle}>{title}</h3>

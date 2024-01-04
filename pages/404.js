@@ -9,7 +9,7 @@ export default function Custom404() {
       <Header></Header>
       <main className={utilStyles.flexVertically}>
         <h1>404 - Page Not Found</h1>
-        <Link href="/">
+        <Link legacyBehavior href="/">
           <a>← Back to home</a>
         </Link>
       </main>

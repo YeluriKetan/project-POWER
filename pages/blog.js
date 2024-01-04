@@ -27,7 +27,7 @@ export default function Blog({ allBlogData }) {
         <ul className={projectsStyles.list}>
           {allBlogData.map(({ id, date, title, intro }) => (
             <li className={projectsStyles.listItem} key={id}>
-              <Link href={`/blog/${id}`}>
+              <Link legacyBehavior href={`/blog/${id}`}>
                 <a className={projectsStyles.link}>
                   <div className={projectsStyles.div}>
                     <h3 className={projectsStyles.projectsTitle}>{title}</h3>

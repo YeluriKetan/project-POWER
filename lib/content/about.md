@@ -3,9 +3,7 @@
 ## Hello, I am Yeluri Ketan.
 
 <p class="about-intro">
-  I love <b>solving problems</b> and <b>creating products</b>. <br>
-  I am passionate about <b>photography</b> and <b>films</b>, <br>
-  and am a sucker for <b>minimalism</b>.
+Final year undergrad student on relentless pursuit of finding and <b>optimizing</b> solutions to <b>real world</b> problems, coupled with natural curiosity and <b>hunger</b> for continuous learning, in hopes of making <b>impactful</b> contributions. Thrives on being <b>meticulous</b> and <b>organized</b>, spends free time indulging in <b>creative</b> endeavours like photography and films.
 </p>
 
 ## [Download resume](https://raw.githubusercontent.com/YeluriKetan/YeluriKetan/main/media/Resume.pdf)

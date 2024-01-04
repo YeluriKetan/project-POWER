@@ -26,7 +26,7 @@ export default function Home() {
         </article>
         <article className={homeStyles.meanwhile}>
           <div className={homeStyles.article}>
-            <Link href="/blog">
+            <Link legacyBehavior href="/blog">
               <a className={homeStyles.ignoreLink}>
                 <section className={homeStyles.section}>
                   <p>
@@ -39,7 +39,7 @@ export default function Home() {
                 </section>
               </a>
             </Link>
-            <Link href="/projects">
+            <Link legacyBehavior href="/projects">
               <a className={homeStyles.ignoreLink}>
                 <section className={homeStyles.section}>
                   <p>
@@ -52,7 +52,7 @@ export default function Home() {
                 </section>
               </a>
             </Link>
-            <Link href="/gallery">
+            <Link legacyBehavior href="/gallery">
               <a className={homeStyles.ignoreLink}>
                 <section className={homeStyles.section}>
                   <p>Want to see some photographs I took?</p>
@@ -62,7 +62,7 @@ export default function Home() {
                 </section>
               </a>
             </Link>
-            <Link href="/about">
+            <Link legacyBehavior href="/about">
               <a className={homeStyles.ignoreLink}>
                 <section className={homeStyles.section}>
                   <p>Want to find out more about me?</p>
