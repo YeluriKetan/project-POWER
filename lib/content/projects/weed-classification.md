@@ -2,6 +2,8 @@
 title: "Multiclass Weed Identification"
 date: "2022-12"
 intro: "Detection and classification of Australian weed species"
+tech: "Python, Tensorflow"
+tags: "Machine Learning"
 ---
 
 # DeepWeeds CNN - [Repo](https://github.com/YeluriKetan/deepweeds-cnn)

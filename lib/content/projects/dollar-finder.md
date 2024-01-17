@@ -2,6 +2,8 @@
 title: "Dollar Finder"
 date: "2021-08"
 intro: "Built the front-end of a shopping-deal-sharing web app using ReactJS"
+tech: "Javascript, ReactJS, Material UI"
+tags: "Web Application, FrontEnd"
 ---
 
 # Dollar Finder - [Repo](https://github.com/YeluriKetan/dollar-finder), [Live](https://dollarfinder.netlify.app/)

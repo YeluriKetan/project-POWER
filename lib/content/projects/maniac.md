@@ -2,6 +2,8 @@
 title: "Project MANIAC"
 date: "2021-12"
 intro: "Attempting the prestigious Advent of Code"
+tech: "Java, C++"
+tags: "Competitive Programming"
 ---
 
 # Project MANIAC - [Repo](https://github.com/YeluriKetan/project-MANIAC)

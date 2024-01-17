@@ -1,7 +1,11 @@
-@use "colors";
-
 .main {
   margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 500px;
+  margin-bottom: auto;
 }
 
 .list {
@@ -26,7 +30,7 @@
   font-size: 1.2rem;
   width: 36rem;
   height: fit-content;
-  padding: 1rem 0.5rem;
+  padding: 1rem 0.5rem 0.5rem;
   text-align: center;
   box-sizing: border-box;
   position: relative;
@@ -34,7 +38,7 @@
   transition: transform 0.2s, background-color 0.2s;
   outline: none;
   border-radius: 3px;
-  border: 3px solid transparent;
+  // border: 3px solid transparent;
 
   &::after,
   &::before {
@@ -88,6 +92,96 @@
   line-height: 0.8;
 }
 
+.msRoot {
+  margin: 0.5rem 0;
+}
+
+.msLabel {
+  font-size: 1.2rem;
+}
+
+.msInput {
+  background-color: colors.$background;
+  width: 36rem;
+  border: 3px solid colors.$text;
+  font-family: "myFont";
+  font-size: 0.9rem;
+
+  &:hover,
+  &:focus-within,
+  &:active {
+    border-color: colors.$link;
+  }
+}
+
+.msPill {
+  background-color: colors.$background;
+  border: 1px solid colors.$heading;
+  font-size: 0.9rem;
+  height: 2rem;
+  border-radius: 3px;
+
+  span {
+    height: fit-content;
+    line-height: normal;
+  }
+
+  &:hover {
+    border-color: colors.$link;
+  }
+}
+
+.msPillsList {
+  min-height: 2rem;
+}
+
+.msDropdown {
+  background-color: colors.$background;
+  border: 3px solid colors.$text;
+}
+
+.msOption {
+  background-color: colors.$background;
+
+  &:hover,
+  &:active,
+  &:focus,
+  &:focus-visible,
+  &:focus-within {
+    background-color: transparentize(colors.$link, 0);
+
+    span {
+      font-weight: 600;
+      color: colors.$background;
+    }
+  }
+}
+
+.badge {
+  margin: 0 0.25rem;
+  background-color: colors.$link;
+  color: colors.$background;
+  height: fit-content;
+  padding: 2px 6px 2px 4px;
+  border-radius: 3px;
+
+  span {
+    svg {
+      color: colors.$background;
+    }
+  }
+}
+
+.badgeLabel {
+  line-height: normal;
+  color: colors.$background;
+  font-size: 0.75rem;
+}
+
+.badgeSection {
+  color: colors.$background;
+}
+
 @media (max-width: 600px) {
   .main {
     margin: 0 0 1rem;
@@ -104,4 +198,36 @@
     margin: 0;
     line-height: 1.5;
   }
+
+ .msRoot {
+   margin: 0.5rem 0;
+ }
+
+ .msLabel {
+   font-size: 1rem;
+ }
+
+ .msInput {
+  
+   width: 85vw;
+   font-size: 0.9rem;
+ }
+
+ .msPill {
+   font-size: 0.8rem;
+   height: 1.6rem;
+ }
+
+ .msPillsList {
+   min-height: 1.6rem;
+ }
+
+ .badge {
+   margin: 0.2rem 0.25rem 0;
+   padding: 1px 6px 0px 2px;
+ }
+
+ .badgeLabel {
+   font-size: 0.6rem;
+ }
 }

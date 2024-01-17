@@ -19,7 +19,7 @@ export default function Home() {
             src="/images/welcome.png"
             width="500"
             height="300"
-            objectFit="scale-down"
+            style={{ objectFit: "scale-down" }}
             alt="Welcome to my website"
             priority
           />
@@ -34,7 +34,7 @@ export default function Home() {
                     learnings?
                   </p>
                   <p>
-                    Check out my <a>Blog</a>.
+                    Check out my <b>Blog</b>.
                   </p>
                 </section>
               </a>
@@ -47,7 +47,7 @@ export default function Home() {
                     done?
                   </p>
                   <p>
-                    Head on over to <a>Projects</a>.
+                    Head on over to <b>Projects</b>.
                   </p>
                 </section>
               </a>
@@ -57,7 +57,7 @@ export default function Home() {
                 <section className={homeStyles.section}>
                   <p>Want to see some photographs I took?</p>
                   <p>
-                    Visit the <a>Gallery</a>.
+                    Visit the <b>Gallery</b>.
                   </p>
                 </section>
               </a>
@@ -67,7 +67,7 @@ export default function Home() {
                 <section className={homeStyles.section}>
                   <p>Want to find out more about me?</p>
                   <p>
-                    I would suggest taking a look at <a>About</a>.
+                    I would suggest taking a look at <b>About</b>.
                   </p>
                 </section>
               </a>

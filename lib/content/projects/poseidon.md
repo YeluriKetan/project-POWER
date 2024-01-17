@@ -2,6 +2,8 @@
 title: "Project POSEIDON"
 date: "2021-09"
 intro: "Built a GUI desktop application for task tracking using Java"
+tech: "Java"
+tags: "Desktop Application, Software Development"
 ---
 
 ## Project POSEIDON - [Repo](https://github.com/YeluriKetan/ip), [Website](https://yeluriketan.github.io/ip/)

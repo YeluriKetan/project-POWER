@@ -2,6 +2,8 @@
 title: "Project GARAGE"
 date: "2022-06"
 intro: "Random array generation based on a given pattern"
+tech: "Javascript, ReactJS, p5.js"
+tags: "Web Application"
 ---
 
 # Project GARAGE - [Repo](https://github.com/YeluriKetan/project-GARAGE), [Live](https://yeluriketan.github.io/project-GARAGE/)

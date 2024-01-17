@@ -2,6 +2,8 @@
 title: "gitGud"
 date: "2021-11"
 intro: "We made a desktop application for managing friends' gaming information"
+tech: "Java"
+tags: "Desktop Application, Software Development"
 ---
 
 ## gitGud - [Repo](https://github.com/AY2122S1-CS2103T-W13-4/tp), [Website](https://ay2122s1-cs2103t-w13-4.github.io/tp/)

@@ -2,6 +2,8 @@
 title: "Project TREADS"
 date: "2021-03"
 intro: "Trying to solve algorithmic coding problems"
+tech: "Java, C++, Python, SQL"
+tags: "Competitive Programming"
 ---
 
 # Project TREADS - [Repo](https://github.com/YeluriKetan/project-TREADS)

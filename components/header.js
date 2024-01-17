@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Header({ page }) {
   return (
     <header className={headerStyles.headerBar}>
-      <h1 className={headerStyles.name}>yeluri ketan.</h1>
+      <h1 className={headerStyles.name}>ketan yeluri.</h1>
       <nav className={headerStyles.navBar}>
         <ul>
           <li className={page === "home" ? headerStyles.currentLink : ""}>

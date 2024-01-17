@@ -2,6 +2,7 @@
 title: "Volunteering in Thailand"
 date: "2022-12"
 intro: "2 week visit to Bamboo School, Kanchanaburi"
+tags: "Lifestyle, Volunteering, Photography"
 ---
 
 # Project Bamboo

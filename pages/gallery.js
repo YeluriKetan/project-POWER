@@ -30,7 +30,7 @@ export default function Gallery({ allImagesLinks }) {
               src={link}
               width={400}
               height={300}
-              objectFit="scale-down"
+              style={{ objectFit: "scale-down" }}
               alt={title}
             />
             <div className={galleryStyles.overlay}>

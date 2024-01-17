@@ -16,8 +16,8 @@ Final year undergrad student on relentless pursuit of finding and <b>optimizing<
 
 _Teaching Assistant, Aug 2023 – Present_
 
-- Tutoring over 40 students in <b>Data Structures and Algorithms (CS2040)</b> course. Assisting students with weekly coding assignments by providing valuable guidance in formulating and improving solutions through pseudocode and code reviews
-- Supervising and mentoring 2 teams in <b>Software Engineering Project (CS3203)</b> by facilitating agile project management practices. Consulting teams in refining system design, implementation, and testing strategies along with code reviews for adherence to industry-standard software engineering principles
+- Tutored over 40 students in <b>Data Structures and Algorithms (CS2040)</b> course. Assisting students with weekly coding assignments by providing valuable guidance in formulating and improving solutions through pseudocode and code reviews
+- Supervising and mentoring multiple teams in <b>Software Engineering Project (CS3203)</b> by facilitating agile project management practices. Consulting teams in refining system design, implementation, and testing strategies along with code reviews for adherence to industry-standard software engineering principles
 
 #### GrabTaxi Holdings Ltd., Singapore
 
@@ -34,7 +34,7 @@ _Intern - Machine Learning Engineer, Jan 2023 – Aug 2023_
 _Aug 2020 - May 2024_
 
 - National University of Singapore
-- Cumulative Average Points: 4.39/5.00
+- Cumulative Average Points: 4.38/5.00
 - Focus Areas in Artificial Intelligence and Algorithms & Theory
 - Minor in Mathematics
 

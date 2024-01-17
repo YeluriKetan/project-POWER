@@ -2,6 +2,8 @@
 title: "Project POWER"
 date: "2022-03"
 intro: "How and Why I built this website..."
+tech: "NextJS, ReactJS, SASS"
+tags: "Web Application, FrontEnd"
 ---
 
 # Project POWER - [Repo](https://github.com/YeluriKetan/project-POWER)

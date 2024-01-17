@@ -2,6 +2,8 @@
 title: "Project WAR"
 date: "2022-02"
 intro: "We built a simple WORDLE solver in C++"
+tech: "C++"
+tags: "Desktop Application"
 ---
 
 # Project WAR - [Repo](https://github.com/YeluriKetan/project-WAR)

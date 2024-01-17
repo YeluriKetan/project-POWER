@@ -1,5 +1,3 @@
-@use "colors";
-
 .main {
   flex: 1;
   display: flex;
@@ -46,6 +44,12 @@
     height: fit-content;
     text-align: center;
     margin: 0;
+  }
+
+  b {
+    color: colors.$link;
+    text-decoration: none;
+    font-weight: normal;
   }
 
   position: relative;

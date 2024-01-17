@@ -2,6 +2,8 @@
 title: "Open Online Orrery"
 date: "2023-09"
 intro: "Final year project on open-source online library for simulation of celestial motion"
+tech: "Typescript, ThreeJS, PlotlyJS"
+tags: "FrontEnd, Simulation"
 ---
 
 # Open Online Orrery - In Progress
