@@ -44,6 +44,8 @@ tags: "Web Application, FrontEnd"
 
 - [Next.js](https://nextjs.org/) - Written in Next.js 12.0.7
 - [React.js](https://reactjs.org/) - Written in React.js 17.0.2
+- [Remark.js](https://github.com/remarkjs/remark) and [Rehype.js](https://github.com/rehypejs/rehype) - Markdown and HTML processors, Part of the [Unified](https://github.com/unifiedjs/collective) collective
+- [rehype-shiki](https://github.com/rsclarke/rehype-shiki) - rehype plugin for [Shiki.js](https://github.com/shikijs/shiki) (a really beautiful syntax highlighter)
 - [SASS](https://sass-lang.com/) - Written using SASS 1.49.9
 - [Vercel](https://vercel.com/) - Hosted on Vercel
 
@@ -56,3 +58,4 @@ tags: "Web Application, FrontEnd"
 - [Dark theme](https://kaitlinmctigue.github.io/#/)
 - [Typewriting name animation](https://youtu.be/w1nhwUGsG6M)
 - [Card Hover animation](https://codepen.io/JackCuthbert/pen/pjZzGE)
+- [Halcyon theme](https://github.com/bchiang7/halcyon-vscode)

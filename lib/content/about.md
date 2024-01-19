@@ -19,7 +19,7 @@ _Teaching Assistant, Aug 2023 – Present_
 - Tutored over 40 students in <b>Data Structures and Algorithms (CS2040)</b> course. Assisting students with weekly coding assignments by providing valuable guidance in formulating and improving solutions through pseudocode and code reviews
 - Supervising and mentoring multiple teams in <b>Software Engineering Project (CS3203)</b> by facilitating agile project management practices. Consulting teams in refining system design, implementation, and testing strategies along with code reviews for adherence to industry-standard software engineering principles
 
-#### GrabTaxi Holdings Ltd., Singapore
+<h4 id="grab">GrabTaxi Holdings Ltd., Singapore</h4>
 
 _Intern - Machine Learning Engineer, Jan 2023 – Aug 2023_
 

@@ -28,14 +28,16 @@ tags: "Competitive Programming"
 
 > It was a fun experience, so much so that on the 6th day of the event, I started attempting the '20 edition simultaneously. In this way, I spent most of that winter vacation trying to solve new, creative and interesting puzzles as fast as I could. By the end of the 25 days event, I had successfully completed 50 days worth of puzzles, learnt a bunch of new stuff and most importantly enjoyed it throughout.
 
-> No promises, but I will try to honor the tradition by attempting the challenge again this December ('22).
+> I managed to miss the entirety of '22 edition due to exams and an [overseas trip](/blog/bamboo), but I eventually got around to doing it along with '23 edition. Can't wait for the next december - Winter is always coming!!!
 
-<img alt="Waiting for december meme" src="https://poster.keepcalmandposters.com/25885.png" width="300" />
+[<img alt="Winter is coming meme" src="https://i.pinimg.com/564x/5f/c0/d0/5fc0d0636cf408155426a9c5d7230a1e.jpg" width="300" />](https://in.pinterest.com/pin/360428776445350806/)
 
 ## Using
 
 - [Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) - Written in Java™ SE Development Kit 11.0.9 (JDK 11.0.9)
+- [C++](https://en.cppreference.com/w/cpp/17) - Written in C++ 17
 - [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/#section=windows) - Text editor for Java
+- [CLion](https://www.jetbrains.com/clion/download/#section=windows) - A cross-platform IDE for C and C++
 
 ## Yours sincerely
 

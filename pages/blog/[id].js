@@ -32,7 +32,10 @@ export default function Blog({ blogData }) {
         <div className={idStyles.articleDate}>
           <Date dateString={blogData.date} formatString="LLL yyyy" />
         </div>
-        <div dangerouslySetInnerHTML={{ __html: blogData.contentHtml }} />
+        <div
+          className={idStyles.articleContent}
+          dangerouslySetInnerHTML={{ __html: blogData.contentHtml }}
+        />
       </article>
     </Layout>
   );
