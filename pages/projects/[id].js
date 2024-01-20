@@ -32,7 +32,10 @@ export default function Project({ projectData }) {
         <div className={idStyles.articleDate}>
           <Date dateString={projectData.date} formatString="LLL yyyy" />
         </div>
-        <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
+        <div
+          className={idStyles.articleContent}
+          dangerouslySetInnerHTML={{ __html: projectData.contentHtml }}
+        />
       </article>
     </Layout>
   );
