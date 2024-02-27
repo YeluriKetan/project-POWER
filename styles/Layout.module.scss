@@ -6,6 +6,9 @@
 
 .backToHome {
   margin: 1rem 0 0;
+  a {
+    @include mixins.drawUnder;
+  }
 }
 
 @media (max-width: 600px) {

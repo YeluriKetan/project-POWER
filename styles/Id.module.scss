@@ -1,59 +1,67 @@
 .articleContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 
-    img {
-        margin: auto;
-    }
+  img {
+    margin: auto;
+  }
+  a {
+    @include mixins.drawUnder;
+  }
+
+  em,
+  strong {
+    color: colors.$heading;
+    font-weight: 800;
+  }
 }
 
 .articleTitle {
-    font-size: 2rem;
-    line-height: 1.3;
-    font-weight: 800;
-    letter-spacing: -0.05rem;
-    margin: 1rem 0;
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
 }
 
 .articleDate {
-    color: colors.$text;
+  color: colors.$text;
 }
 
 .articleContent {
-    width: 100%;
+  width: 100%;
 
-    pre {
-      overflow-x: auto;
-      width: 100%;
-      padding: 1rem;
-      border-radius: 5px;
-      
-    }
+  pre {
+    overflow-x: auto;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+  }
 }
 
 @media (max-width: 600px) {
-    .articleContainer {
-        font-size: 0.7rem;
+  .articleContainer {
+    font-size: 0.7rem;
 
-        img {
-            max-width: 200px;
-        }
-        blockquote {
-            margin-left: 0.8rem;
-            margin-right: 0;
-        }
-        ul {
-            padding-left: 1.5rem;
-        }
+    img {
+      max-width: 200px;
     }
+    blockquote {
+      margin-left: 0.8rem;
+      margin-right: 0;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+  }
 
-    .articleTitle {
-        font-size: 1.5rem;
-    }
+  .articleTitle {
+    font-size: 1.5rem;
+  }
 
-    .articleDate {
-        color: colors.$text;
-    }
+  .articleDate {
+    color: colors.$text;
+  }
 }

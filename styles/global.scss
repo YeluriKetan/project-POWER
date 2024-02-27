@@ -12,7 +12,7 @@ body {
   font-size: 1rem;
   overflow-x: hidden;
   background-color: colors.$background;
-  background-image: url("./../public/background-pattern.png");
+  background-image: url("./../public/background-pattern-2.png");
   background-size: 1500px 1000px;
   background-position: center center;
   background-attachment: fixed;
@@ -40,17 +40,16 @@ body {
 a {
   color: colors.$link;
   text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 1px;
+  }
 }
 
 header {
   a {
     color: colors.$heading !important;
   }
-}
-
-a:hover {
-  text-decoration: underline;
-  text-underline-offset: 1px;
 }
 
 img {
@@ -63,17 +62,17 @@ img {
 
 ::-webkit-scrollbar-track {
   margin-block: 10vh;
-  border: 4px solid colors.$link;
-  border-radius: 9999px;
+  border: 4px solid colors.$text;
+  border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 9999px;
-  border: 4px solid colors.$heading;
+  border-radius: 3px;
+  border: 4px solid colors.$glow;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(92, 219, 149, 0.5);
+  background: adjust-color(colors.$glow, $alpha: -0.5);
 }
 
 .about-intro {
@@ -136,7 +135,6 @@ img {
   }
 
   .about-wrapper {
-
     h3 {
       font-size: 1.2rem;
     }
@@ -160,7 +158,7 @@ center {
 
 .inline-code {
   background-color: #1d2433;
-  color: #A2AABC;
+  color: #a2aabc;
   border-radius: 3px;
   padding: 2px;
 }

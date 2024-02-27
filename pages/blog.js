@@ -25,6 +25,8 @@ export async function getStaticProps() {
   };
 }
 
+const bg = "#141414";
+
 export default function Blog({ allBlogData }) {
   const uniqMetaData = Array.from(
     new Set(allBlogData.flatMap((e) => e.tags))
@@ -90,7 +92,7 @@ export default function Blog({ allBlogData }) {
                               label: projectsStyles.badgeLabel,
                               section: projectsStyles.badgeSection,
                             }}
-                            leftSection={<HashIcon size={16} />}
+                            leftSection={<HashIcon color={bg} size={16} />}
                           >
                             {v}
                           </Badge>

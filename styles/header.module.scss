@@ -47,13 +47,15 @@ $typewriter-delay: 1s;
 
   &::before {
     background: colors.$background;
-    animation: typewriter $caret-speed steps($typewriter-chars) $typewriter-delay infinite;
+    animation: typewriter $caret-speed steps($typewriter-chars)
+      $typewriter-delay infinite;
   }
 
   &::after {
     width: 0.125em;
     background: colors.$text;
-    animation: typewriter $caret-speed steps($typewriter-chars) $typewriter-delay infinite,
+    animation: typewriter $caret-speed steps($typewriter-chars)
+        $typewriter-delay infinite,
       blink 1s steps(2, start) infinite;
   }
 }

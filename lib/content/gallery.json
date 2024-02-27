@@ -1,15 +1,88 @@
 {
-    "images": [
-        {"title": "Starlight", "date": "2018-06-06", "fileName": "starlight.jpg"},
-        {"title": "Water Trophy", "date": "2018-09-13", "fileName": "water-trophy.jpg"},
-        {"title": "Pac-man?", "date": "2020-03-21", "fileName": "pacman.jpg"},
-        {"title": "Rings of K10", "date": "2020-03-21", "fileName": "rings-of-k10.jpg"},
-        {"title": "Journey to the Centre of the Lens", "date": "2020-04-07", "fileName": "journey-lens.jpg"},
-        {"title": "Beware of the Flare", "date": "2020-04-07", "fileName": "beware-flare.jpg"},
-        {"title": "The power of the eye, in the palm of my hand", "date": "2020-04-09", "fileName": "power-eyes-hand.jpg"},
-        {"title": "Flow like a card, cut like a diamond", "date": "2020-05-07", "fileName": "card-diamond.jpg"},
-        {"title": "Twilight: Fall of the Dusk", "date": "2021-02-17", "fileName": "twilight-fall-dusk.jpg"},
-        {"title": "Vogue Lens", "date": "2021-10-21", "fileName": "vogue-lens.jpg"},
-        {"title": "Bed Notice", "date": "2021-10-26", "fileName": "bed-notice.jpg"},
-        {"title": "Fire in the Sky", "date": "2022-01-26", "fileName": "fire-sky.jpg"}]
+  "images": [
+    {
+      "title": "Starlight",
+      "date": "2018-06-06",
+      "fileName": "starlight.jpg",
+      "width": "1200",
+      "height": "800"
+    },
+    {
+      "title": "Water Trophy",
+      "date": "2018-09-13",
+      "fileName": "water-trophy.jpg",
+      "width": "1200",
+      "height": "800"
+    },
+    {
+      "title": "Pac-man?",
+      "date": "2020-03-21",
+      "fileName": "pacman.jpg",
+      "width": "1200",
+      "height": "800"
+    },
+    {
+      "title": "Rings of K10",
+      "date": "2020-03-21",
+      "fileName": "rings-of-k10.jpg",
+      "width": "1200",
+      "height": "800"
+    },
+    {
+      "title": "Journey to the Centre of the Lens",
+      "date": "2020-04-07",
+      "fileName": "journey-lens.jpg",
+      "width": "1200",
+      "height": "800"
+    },
+    {
+      "title": "Beware of the Flare",
+      "date": "2020-04-07",
+      "fileName": "beware-flare.jpg",
+      "width": "1200",
+      "height": "800"
+    },
+    {
+      "title": "The power of the eye, in the palm of my hand",
+      "date": "2020-04-09",
+      "fileName": "power-eyes-hand.jpg",
+      "width": "1440",
+      "height": "961"
+    },
+    {
+      "title": "Flow like a card, cut like a diamond",
+      "date": "2020-05-07",
+      "fileName": "card-diamond.jpg",
+      "width": "1200",
+      "height": "800"
+    },
+    {
+      "title": "Twilight: Fall of the Dusk",
+      "date": "2021-02-17",
+      "fileName": "twilight-fall-dusk.jpg",
+      "width": "1200",
+      "height": "673"
+    },
+    {
+      "title": "Vogue Lens",
+      "date": "2021-10-21",
+      "fileName": "vogue-lens.jpg",
+      "width": "1200",
+      "height": "800"
+    },
+    {
+      "title": "Bed Notice",
+      "date": "2021-10-26",
+      "fileName": "bed-notice.jpg",
+      "width": "505",
+      "height": "900"
+    },
+    {
+      "title": "Fire in the Sky",
+      "date": "2022-01-26",
+      "fileName": "fire-sky.jpg",
+      "width": "1280",
+      "height": "721"
     }
+  ]
+}

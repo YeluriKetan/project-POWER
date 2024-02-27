@@ -1,6 +1,6 @@
 <img alt="Yeluri Ketan" src="/images/formal-profile.jpg" class="profile-img" />
 
-## Hello, I am Yeluri Ketan.
+## Hello, I am **Yeluri Ketan**.
 
 <p class="about-intro">
 Final year undergrad student on relentless pursuit of finding and <b>optimizing</b> solutions to <b>real world</b> problems, coupled with natural curiosity and <b>hunger</b> for continuous learning, in hopes of making <b>impactful</b> contributions. Thrives on being <b>meticulous</b> and <b>organized</b>, spends free time indulging in <b>creative</b> endeavours like photography and films.
@@ -42,11 +42,11 @@ _Aug 2020 - May 2024_
 
 #### Programming Languages
 
-> Java, C++, Scala, Python, Typescript, SQL
+> Java, **C++**, Scala, Python, Javascript, Typescript, SQL
 
 #### Libraries/Frameworks
 
-> Apache Flink, React, Next.js, Terraform
+> **Apache Flink**, three.js, React.js, Next.js, Plotly.js, Terraform
 
 #### Tools
 
@@ -98,7 +98,7 @@ _Jan 2021 - May 2023_
   - Participated in 10+ contests
 - <b>Codeforces</b> - [Profile](https://codeforces.com/profile/YeluriKetan)
   - 280+ problems solved with over a 180-day streak
-- Advent of Code</b> - [Article](/projects/maniac)
+- <b>Advent of Code</b> - [Article](/projects/maniac)
   - Completed 2020, 2021 and 2022 editions
 - <b>Google Hash Code</b>
   - Competed in the 2022 edition

@@ -26,6 +26,8 @@ export async function getStaticProps() {
   };
 }
 
+const bg = "#141414";
+
 export default function Project({ allProjectsData }) {
   const uniqTech = Array.from(
     new Set(allProjectsData.flatMap((e) => e.tech))
@@ -132,7 +134,7 @@ export default function Project({ allProjectsData }) {
                                 label: projectsStyles.badgeLabel,
                                 section: projectsStyles.badgeSection,
                               }}
-                              leftSection={<CodeIcon size={16} />}
+                              leftSection={<CodeIcon size={16} color={bg} />}
                             >
                               {v}
                             </Badge>
@@ -146,7 +148,7 @@ export default function Project({ allProjectsData }) {
                                 label: projectsStyles.badgeLabel,
                                 section: projectsStyles.badgeSection,
                               }}
-                              leftSection={<HashIcon size={16} />}
+                              leftSection={<HashIcon size={16} color={bg} />}
                             >
                               {v}
                             </Badge>

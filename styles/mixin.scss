@@ -1,0 +1,26 @@
+@use "colors";
+
+@mixin drawUnder {
+  color: colors.$link;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 90%;
+    width: 0;
+    height: 2px;
+    background-color: colors.$link;
+    transition: width 0.3s ease-in-out;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+  &:hover:after {
+    width: 100%;
+  }
+}

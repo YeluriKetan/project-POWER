@@ -1,11 +1,11 @@
 import { rem } from "@mantine/core";
 
-export function HashIcon({ size, style, ...others }) {
+export function HashIcon({ size, style, color, ...others }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
-      stroke="currentColor"
+      stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="2"

@@ -30,7 +30,9 @@ tags: "Competitive Programming"
 
 > I managed to miss the entirety of '22 edition due to exams and an [overseas trip](/blog/bamboo), but I eventually got around to doing it along with '23 edition. Can't wait for the next december - Winter is always coming!!!
 
-[<img alt="Winter is coming meme" src="https://i.pinimg.com/564x/5f/c0/d0/5fc0d0636cf408155426a9c5d7230a1e.jpg" width="300" />](https://in.pinterest.com/pin/360428776445350806/)
+<img alt="Winter is coming meme" src="https://i.pinimg.com/564x/5f/c0/d0/5fc0d0636cf408155426a9c5d7230a1e.jpg" width="300" />
+
+<center>Source: Pinterest</center>
 
 ## Using
 
